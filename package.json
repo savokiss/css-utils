@@ -1,0 +1,25 @@
+{
+  "name": "@savo/css-utils",
+  "version": "0.1.0",
+  "description": "Bootstrap 4 css utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savokiss/css-utils.git"
+  },
+  "author": "savokiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/savokiss/css-utils/issues"
+  },
+  "homepage": "https://github.com/savokiss/css-utils#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  }
+}
