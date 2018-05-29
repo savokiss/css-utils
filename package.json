@@ -1,10 +1,10 @@
 {
   "name": "@savo/css-utils",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Bootstrap 4 css utils",
   "main": "scss/utilities.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -16,10 +16,19 @@
     "url": "https://github.com/savokiss/css-utils/issues"
   },
   "homepage": "https://github.com/savokiss/css-utils#readme",
-  "dependencies": {
-    "bootstrap": "^4.1.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "node-sass": "^4.9.0"
+    "autoprefixer": "^8.5.1",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "precss": "^3.1.2",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.0",
+    "webpack-cli": "^2.1.4"
   }
 }
