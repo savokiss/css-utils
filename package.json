@@ -4,7 +4,8 @@
   "description": "Bootstrap 4 css utils",
   "main": "scss/utilities.scss",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
